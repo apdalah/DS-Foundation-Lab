@@ -570,7 +570,7 @@ public:
 
         for(int i = 0; i < currentSize; i++)
         {
-            reversed.data[i] = data[currentSize - i + 1];
+            reversed.data[i] = data[currentSize - i - 1];
 		}
 
 		return reversed;
